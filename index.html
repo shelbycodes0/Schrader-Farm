@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Calistoga&family=Fredericka+the+Great&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      @media (max-width:1200px) {
+        header, section {
+          width: 90%;
+        }
+        h2 {
+          font-size: 70px;
+        }
+        body {
+          background-image: url("/lavender.png");
+          background-size: 800px;
+          background-position: 0%;
+          background-attachment: fixed;
+          
+        }
+        .loader {
+          background-image: url("https://cdn-icons-png.flaticon.com/512/5684/5684092.png");
+          background-position: 50%;
+          background-size: 380px;
+          width: 380px;
+          height: 380px;
+        }
+        .site-title {
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  font-size: 50px;
+}
+      }
+    </style>
+  </head>
+  <body>
+    <body onload="myFunction()" style="margin: 0">
+    <div id="loader">
+      <div class="loader-wrapper">
+        <span class="loader">
+          <h1 class="site-title">Schrader Farm</h1> </span>
+      </div>
+    </div>
+
+    <div style="display: none" id="myDiv" class="animate-bottom">
+      <header>
+      <h2>Schrader Farm</h2>
+      <h3><img src="https://cdn-icons-png.flaticon.com/512/861/861648.png" height="20px" /> Locally Grown in New Ulm, Texas</h3></header>
+      <section><h4>Our Story</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non consectetur a erat nam at lectus. Mollis nunc sed id semper. Odio facilisis mauris sit amet massa vitae tortor condimentum. Lacinia at quis risus sed vulputate odio ut enim. Leo integer malesuada nunc vel risus commodo viverra. Sit amet nisl suscipit adipiscing bibendum. Libero nunc consequat interdum varius sit. Eget est lorem ipsum dolor sit amet consectetur adipiscing elit. Mattis aliquam faucibus purus in. Mi ipsum faucibus vitae aliquet nec ullamcorper. Sit amet massa vitae tortor condimentum lacinia quis vel. Molestie ac feugiat sed lectus vestibulum. Et tortor at risus viverra adipiscing at in. Amet dictum sit amet justo donec enim. Enim nec dui nunc mattis enim ut tellus elementum sagittis. Facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam.
+<br/><br/>
+At augue eget arcu dictum varius duis. Consequat interdum varius sit amet mattis vulputate enim. Libero justo laoreet sit amet cursus sit. Sed euismod nisi porta lorem mollis aliquam. Id velit ut tortor pretium viverra suspendisse potenti nullam. Non blandit massa enim nec dui nunc mattis enim ut. Augue lacus viverra vitae congue. Adipiscing elit pellentesque habitant morbi. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut. Nibh venenatis cras sed felis eget velit. Suspendisse sed nisi lacus sed. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Turpis tincidunt id aliquet risus feugiat. At consectetur lorem donec massa sapien. Volutpat maecenas volutpat blandit aliquam etiam erat. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras.
+
+</section> 
+<section><a href="/"><h4 class="links">Click To Shop</h4></a></section>
+<section><a href="/"><h4 class="links">Contact Us</h4></a></section> 
+<section><a href="/"><h4 class="links">Our Blog</h4></a></section>      
+<br/>
+<br/> 
+<br/> 
+<br/> 
+
+<footer>This website was built by <a href="/">ShelbyCodes 🧩</a></footer>  
+<br/><br/> 
+<br/><br/> 
+
+    </div>
+    <script>
+      var myVar;
+
+      function myFunction() {
+        myVar = setTimeout(showPage, 2000);
+      }
+
+      function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+      }
+    </script>
+  </body>
+</html>
